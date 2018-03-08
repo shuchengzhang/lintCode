@@ -7,7 +7,7 @@ public class CodeTest {
     @Test
     public void trailingZerostest(){
         Solution solution=new Solution();
-        long l = solution.trailingZeros(23);
+        long l = solution.trailingZeros2(36);
         System.out.println(l);
     }
 }

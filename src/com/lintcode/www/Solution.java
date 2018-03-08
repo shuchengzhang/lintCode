@@ -17,4 +17,16 @@ public class Solution {
         }
         return count;
     }
+
+    /*
+    求阶乘尾数有几个零 算法改进
+     */
+    public  long trailingZeros2(long n) {
+        // write your code here, try to do it without arithmetic operators.
+        while (n>=5){
+            n=n/5;
+            count+=n;
+        }
+        return count;
+    }
 }
